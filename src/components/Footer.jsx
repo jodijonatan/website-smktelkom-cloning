@@ -12,7 +12,7 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Footer() {
   return (
     <footer className="bg-gray text-white">
-      <div className="py-14 px-18 grid grid-cols-4 gap-4">
+      <div className="py-14 px-18 grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="flex flex-col gap-3">
           <img
             src="/logo3-SMK-Telkom-1-Medan.png"
@@ -24,7 +24,7 @@ export default function Footer() {
             Utara dengan Akreditasi "A".
           </p>
         </div>
-        <div className="flex flex-col gap-3 mx-auto">
+        <div className="flex flex-col gap-3 md:mx-auto">
           <h4 className="text-3xl">Menu Utama</h4>
           <ul className="flex flex-col gap-2">
             <li className="flex items-center gap-1 hover:text-primary cursor-pointer">
@@ -88,9 +88,11 @@ export default function Footer() {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className="bg-black py-6 flex justify-center items-center">
-        2024 &copy; Copyright SMK Telkom 1 Medan,
-        <span className="text-[#787878]"> All right reserved.</span>
+      <div className="bg-black py-6 flex text-center justify-center items-center">
+        <h1>
+          2024 &copy; Copyright SMK Telkom 1 Medan,
+          <span className="text-[#787878]"> All right reserved.</span>
+        </h1>
       </div>
     </footer>
   );

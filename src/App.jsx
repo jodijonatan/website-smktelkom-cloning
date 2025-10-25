@@ -7,6 +7,7 @@ import Program from "./pages/Program";
 import Keunggulan from "./pages/Keunggulan";
 import SambutanKepalaSekolah from "./pages/beranda/SambutanKepalaSekolah";
 import VideoProfilSekolah from "./pages/beranda/VideoProfilSekolah";
+import Galeri from "./pages/Galeri";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <Browser />
                 <Program />
                 <Keunggulan />
+                <Galeri />
               </main>
               <Footer />
             </>
