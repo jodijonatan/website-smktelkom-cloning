@@ -8,6 +8,8 @@ import Keunggulan from "./pages/Keunggulan";
 import SambutanKepalaSekolah from "./pages/beranda/SambutanKepalaSekolah";
 import VideoProfilSekolah from "./pages/beranda/VideoProfilSekolah";
 import Galeri from "./pages/Galeri";
+import FAQs from "./pages/FAQs";
+import BackToTop from "./components/BackToRop";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
                 <Program />
                 <Keunggulan />
                 <Galeri />
+                <FAQs />
+                <BackToTop />
               </main>
               <Footer />
             </>
