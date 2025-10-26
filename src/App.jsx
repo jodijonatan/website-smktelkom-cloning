@@ -10,6 +10,7 @@ import VideoProfilSekolah from "./pages/beranda/VideoProfilSekolah";
 import Galeri from "./pages/Galeri";
 import FAQs from "./pages/FAQs";
 import BackToTop from "./components/BackToRop";
+import WhatsappButton from "./components/WhatsappButton";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <Keunggulan />
                 <Galeri />
                 <FAQs />
+                <WhatsappButton />
                 <BackToTop />
               </main>
               <Footer />

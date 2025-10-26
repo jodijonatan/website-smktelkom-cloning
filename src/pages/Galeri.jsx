@@ -1,4 +1,5 @@
 import { galeris } from "../data/galeris";
+import SelengkapnyaButton from "../components/SelengkapnyaButton";
 
 export default function Galeri() {
   return (
@@ -21,12 +22,7 @@ export default function Galeri() {
               <p className="font-medium my-7 cursor-pointer hover:text-primary">
                 {galeri.description}
               </p>
-              <a
-                className="bg-primary py-2 px-6 rounded-lg text-white mb-4"
-                href="#"
-              >
-                Selengkapnya
-              </a>
+              <SelengkapnyaButton name="Selengkapnya" />
             </div>
           </div>
         ))}
